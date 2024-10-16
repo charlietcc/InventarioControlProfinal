@@ -52,7 +52,7 @@ public class InventarioControl {
                         String codigo = scanner.nextLine();
                         System.out.println("Ingrese su nombre: \n");
                         String nombre = scanner.nextLine();
-                        
+                        System.out.println("ESTA ES UNA PRUBEBA PARA VER LOS CAMBIOS");
                         bw.write(codigo+"|"+nombre+"\n");
                         bw.close();
                         fw.close();
